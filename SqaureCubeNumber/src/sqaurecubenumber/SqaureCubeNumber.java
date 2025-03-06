@@ -1,13 +1,20 @@
 
 package sqaurecubenumber;
 
+import java.util.Scanner;
+
 
 public class SqaureCubeNumber {
 
     public static void main(String[] args) {
-        double number = 2;
-        double squareOfNumber = Math.pow(number, number);
-        double cubeOfNumber = Math.pow(number, 4);
+        Scanner scn = new Scanner(System.in);
+        
+        System.out.println("Enter number:");
+        double number,squareOfNumber,cubeOfNumber;
+        number = scn.nextDouble();
+        
+        squareOfNumber = Math.pow(number, number);
+        cubeOfNumber = Math.pow(number, 4);
         
         System.out.println("Square of number: " + squareOfNumber);
         System.out.println("Cube of number: " + cubeOfNumber);
