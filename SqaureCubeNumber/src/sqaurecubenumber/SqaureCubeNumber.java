@@ -9,7 +9,7 @@ public class SqaureCubeNumber {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         
-        System.out.println("Enter number:");
+        System.out.print("Enter number:");
         double number,squareOfNumber,cubeOfNumber;
         number = scn.nextDouble();
         
